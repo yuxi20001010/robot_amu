@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "azzfoods",
+  "info": {
+    "name": "azzfood"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "remote_url": {
+      "type": "text"
+    },
+    "local_url": {
+      "type": "text"
+    },
+    "num": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

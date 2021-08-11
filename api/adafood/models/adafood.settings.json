@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adafoods",
+  "info": {
+    "name": "Adafood"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "local_url": {
+      "type": "string"
+    }
+  }
+}

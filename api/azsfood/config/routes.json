@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/azsfood_amu",
+      "handler": "azsfood.homepage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/azsfoods",
+      "handler": "azsfood.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/azsfoods/count",
+      "handler": "azsfood.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/azsfoods/:id",
+      "handler": "azsfood.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/azsfoods",
+      "handler": "azsfood.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/azsfoods/:id",
+      "handler": "azsfood.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/azsfoods/:id",
+      "handler": "azsfood.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

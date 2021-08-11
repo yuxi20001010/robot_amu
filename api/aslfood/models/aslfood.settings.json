@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aslfoods",
+  "info": {
+    "name": "Aslfood"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "local_url": {
+      "type": "string"
+    }
+  }
+}

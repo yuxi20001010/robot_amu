@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/abtfood_amu",
+      "handler": "abtfood.homepage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/abtfoods",
+      "handler": "abtfood.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/abtfoods/count",
+      "handler": "abtfood.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/abtfoods/:id",
+      "handler": "abtfood.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/abtfoods",
+      "handler": "abtfood.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/abtfoods/:id",
+      "handler": "abtfood.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/abtfoods/:id",
+      "handler": "abtfood.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

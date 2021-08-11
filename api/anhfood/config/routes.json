@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anhfood_amu",
+      "handler": "anhfood.homepage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anhfoods",
+      "handler": "anhfood.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anhfoods/count",
+      "handler": "anhfood.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anhfoods/:id",
+      "handler": "anhfood.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/anhfoods",
+      "handler": "anhfood.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anhfoods/:id",
+      "handler": "anhfood.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anhfoods/:id",
+      "handler": "anhfood.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

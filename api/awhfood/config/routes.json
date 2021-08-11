@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/awhfood_amu",
+      "handler": "awhfood.homepage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/awhfoods",
+      "handler": "awhfood.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/awhfoods/count",
+      "handler": "awhfood.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/awhfoods/:id",
+      "handler": "awhfood.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/awhfoods",
+      "handler": "awhfood.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/awhfoods/:id",
+      "handler": "awhfood.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/awhfoods/:id",
+      "handler": "awhfood.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/azzfood_amu",
+      "handler": "azzfood.homepage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/azzfoods",
+      "handler": "azzfood.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/azzfoods/count",
+      "handler": "azzfood.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/azzfoods/:id",
+      "handler": "azzfood.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/azzfoods",
+      "handler": "azzfood.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/azzfoods/:id",
+      "handler": "azzfood.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/azzfoods/:id",
+      "handler": "azzfood.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

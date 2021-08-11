@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/aslfood_amu",
+      "handler": "aslfood.homepage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aslfoods",
+      "handler": "aslfood.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aslfoods/count",
+      "handler": "aslfood.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/aslfoods/:id",
+      "handler": "aslfood.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/aslfoods",
+      "handler": "aslfood.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/aslfoods/:id",
+      "handler": "aslfood.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/aslfoods/:id",
+      "handler": "aslfood.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "azsfoods",
+  "info": {
+    "name": "Azsfood"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "local_url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/axyfood_amu",
+      "handler": "axyfood.homepage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/axyfoods",
+      "handler": "axyfood.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/axyfoods/count",
+      "handler": "axyfood.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/axyfoods/:id",
+      "handler": "axyfood.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/axyfoods",
+      "handler": "axyfood.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/axyfoods/:id",
+      "handler": "axyfood.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/axyfoods/:id",
+      "handler": "axyfood.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

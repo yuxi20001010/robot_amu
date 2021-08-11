@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "awsfoods",
+  "info": {
+    "name": "Awsfood"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "local_url": {
+      "type": "string"
+    }
+  }
+}

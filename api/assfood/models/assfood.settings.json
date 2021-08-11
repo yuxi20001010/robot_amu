@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assfoods",
+  "info": {
+    "name": "Assfood"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "local_url": {
+      "type": "string"
+    }
+  }
+}

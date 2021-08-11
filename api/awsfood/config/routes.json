@@ -1,0 +1,60 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/awsfood_amu",
+      "handler": "awsfood.homepage",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/awsfoods",
+      "handler": "awsfood.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/awsfoods/count",
+      "handler": "awsfood.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/awsfoods/:id",
+      "handler": "awsfood.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/awsfoods",
+      "handler": "awsfood.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/awsfoods/:id",
+      "handler": "awsfood.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/awsfoods/:id",
+      "handler": "awsfood.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
